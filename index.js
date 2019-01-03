@@ -1,6 +1,7 @@
 function dwarfRollCall(dwarves) {
  let dwarveGreeting = "";
- for(let i = 0; i < Math.floor(dwarves.length/2); i++){
+ let startingPoint = Math.floor(dwarves.length/2);
+ for(let i = startingPoint; i < dwarves.length; i++){
      let eachDwarf = dwarves[i];
 
    dwarveGreeting += (i + 1) + ". " + dwarves[i] + " ";
