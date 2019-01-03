@@ -5,7 +5,7 @@ function dwarfRollCall(dwarves) {
 
    dwarveGreeting += (i + 1) + ". " + dwarves[i] + " ";
 
-   dwarveGreeting += " " + (i + 1) + ". " + dwarves[i];
+   //dwarveGreeting += " " + (i + 1) + ". " + dwarves[i];
  }
    return dwarveGreeting;
 }
