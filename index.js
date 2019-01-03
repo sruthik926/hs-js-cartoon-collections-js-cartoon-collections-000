@@ -25,13 +25,25 @@ function longPlaneteerCalls(words) {
   }
         return false;
 }
-
+let foodCheese = ['apple', 'gouda', 'cheddar', 'banana'];
 function findTheCheese (foods) {
   for(let i = 0; i < foods.length; i++){
       let eachFood = foods[i];
-    if(eachFood === "cheddar" || eachFood === "gouda" || eachFood === "camembert"){
+    if(eachFood === "cheddar" || eachFood === "gouda" || eachFood === "camembert" || eachFood === 'swiss'){
        return eachFood;
     }
   }
      return "no cheese!";
 }
+
+function wordsWithB(words){
+  let wordsstartB = [];
+  for(let i = 0; i < words.length; i++){
+       let eachWord = words[i];
+      if(eachWord[0] === 'b'){
+        wordsstartB.push(eachWord);
+      }
+  }
+     return wordstartB;
+}
+
