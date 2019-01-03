@@ -10,7 +10,7 @@ function dwarfRollCall(dwarves) {
    return dwarveGreeting;
 }
 
-dwarfRollCall(['adam', 'Kevin']);
+dwarfRollCall(['adam', 'Kevin', 'Cal']);
 
 function summonCaptainPlanet(planeteerCalls){
   for(let i = 0; i < planeteerCalls.length; i++){
