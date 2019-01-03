@@ -10,6 +10,8 @@ function dwarfRollCall(dwarves) {
    return dwarveGreeting;
 }
 
+dwarfRollCall(['adam', 'Kevin']);
+
 function summonCaptainPlanet(planeteerCalls){
   for(let i = 0; i < planeteerCalls.length; i++){
      planeteerCalls[i] = planeteerCalls[i].toUpperCase() + "!";
